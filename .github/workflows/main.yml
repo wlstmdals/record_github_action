@@ -1,0 +1,15 @@
+name: helloGithubActioni
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # run 뒤에는 작동하는 실제 코드 넣어야함
+      -name: hello world 
+      run: echo Hello, world!
+      -name: Directory!
+      run: ls -al
+
+        
